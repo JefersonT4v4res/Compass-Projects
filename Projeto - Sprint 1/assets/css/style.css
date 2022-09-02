@@ -15,7 +15,7 @@
 }
 
 html, body {
-  overflow-y: hidden;
+  overflow: hidden;
   font-family: "Poppins", sans-serif;
   color: black;
   background: #f8f8f8;
@@ -27,6 +27,32 @@ a {
   text-decoration: none;
 }
 
+#headerTwo:target, #headerThree:target {
+  -webkit-animation: entrance 1s ease 0s 1 normal none;
+          animation: entrance 1s ease 0s 1 normal none;
+}
+
+@-webkit-keyframes entrance {
+  0% {
+    opacity: 0;
+    transform: translateX(0.6rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes entrance {
+  0% {
+    opacity: 0;
+    transform: translateX(0.6rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 #main-container {
   margin: 1rem auto 0;
 }
@@ -36,16 +62,21 @@ a {
   flex-direction: column;
   align-items: center;
 }
-#main-container .card-aboutApp svg {
+#main-container .card-aboutApp .card-Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main-container .card-aboutApp .card-Header .card-img {
   margin-top: 2.5rem;
   width: calc(100% - 2rem);
   height: auto;
 }
-#main-container .card-aboutApp h1 {
+#main-container .card-aboutApp .card-Header .title-Card {
   font-size: 1.3rem;
   margin: 0.5rem auto;
 }
-#main-container .card-aboutApp p {
+#main-container .card-aboutApp .card-Header .subtitle-Card {
   width: 15rem;
   font-size: 0.9rem;
   font-weight: lighter;

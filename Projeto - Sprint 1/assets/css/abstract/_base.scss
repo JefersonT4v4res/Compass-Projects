@@ -14,7 +14,7 @@
 }
 
 html, body {
-    overflow-y: hidden;
+    overflow: hidden;
     font-family: $fonte;
     color: black;
     background: $color-Ice;
@@ -24,4 +24,20 @@ html, body {
 
 a {
     text-decoration: none;
+}
+
+// Animation
+#headerTwo:target, #headerThree:target {
+    animation: entrance 1s ease 0s 1 normal none;
+}
+@keyframes entrance {
+    0% {
+        opacity: 0;
+        transform: translateX(0.6rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
