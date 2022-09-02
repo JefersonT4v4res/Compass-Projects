@@ -1,0 +1,48 @@
+@mixin positionProgress {
+    width: 0.8rem;
+    height: 0.8rem;
+    border: none;
+    background: $color-Smoth-Green;
+}
+
+#main-container {
+    margin: 1rem auto 0;
+    .card-aboutApp {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;                   
+        svg {
+            margin-top: 2.5rem;
+            width: calc(100% - 2rem);
+            height: auto;
+        }
+        h1 {
+            font-size: $title-Font-Size;
+            margin: 0.5rem auto;
+        }
+        p {
+            width: 15rem;
+            font-size: $subtitle-Font-Size;
+            font-weight: lighter;
+            line-height: 1.25rem;
+            margin: 0.1rem auto;
+            text-align: center;
+        }
+        .slide-Progress {
+            margin: 2rem auto;
+            width: 5rem;
+            display: flex;
+            justify-content: space-between;
+            .slide-Progress_Position {
+                width: 0.6rem;
+                height: 0.6rem;
+                border: 0.099rem solid #000000;
+                border-radius: 100%;
+            }
+            #position-One, #position-Two, #position-Three {
+                @include positionProgress();
+            }
+        }
+    }
+}

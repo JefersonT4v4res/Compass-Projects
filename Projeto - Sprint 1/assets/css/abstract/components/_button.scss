@@ -1,0 +1,27 @@
+@import '../variables';
+
+@mixin smooth-Ice-Shadow {
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    background: $color-Smoth-Green;
+    box-shadow: 0px 4px 10px $color-Smooth-Ice-Shadow;
+}
+
+button {
+    @include smooth-Ice-Shadow();
+    margin: 1rem auto 2rem;
+    a.btn_continue {
+        position: relative;
+        font-size: $subtitle-Font-Size;
+        font-weight: 600;
+        color: $color-Ice;
+        padding: 1rem 6rem;
+    }
+}
+
+a.btn_skip {
+    font-size: $subtitle-Font-Size;
+    font-weight: 600;
+    color: $color-Smoth-Green;
+}
