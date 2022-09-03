@@ -5,7 +5,7 @@
 
 > Desenvolvimento das telas pedidas com simulação de efeito slide
 
-<img min-width="500px" max-width="500px" width="500px" src="./banners/Banner - Sprint 1.png" align="middle">
+<img min-width="500px" max-width="500px" width="500px" src="./banners/Banner - Sprint 1.png" aling="center">
 
 ## 👨‍💻 Skills aplicadas/ desenvolvidas:
 <code><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /></code>
