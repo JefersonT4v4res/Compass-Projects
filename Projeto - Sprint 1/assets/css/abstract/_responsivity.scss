@@ -1,0 +1,41 @@
+@import './variables';
+@import './base';
+
+@media only screen and (min-width: 769px) {
+    .card-aboutApp .card-Header { 
+        width: auto;
+        svg {
+            width: 23rem;
+            height: auto;
+        }
+        .title-Card {
+            font-size: calc($title-Font-Size + 0.6rem);
+        }
+        .subtitle-Card {
+            font-size: calc($subtitle-Font-Size + 0.3rem);
+            width: 23rem;
+        }
+    }
+    .card-aboutApp .slide-Progress .slide-Progress_Position {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    .card-aboutApp .slide-Progress #position-One, .card-aboutApp .slide-Progress #position-Two, .card-aboutApp .slide-Progress #position-Three {
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+
+
+    button {
+        width: 25rem;
+        height: 4rem;
+        a.btn_continue {
+            font-size: calc($subtitle-Font-Size + 0.5rem);
+            padding: 1rem 6rem;
+        }
+    }
+    
+    a.btn_skip {
+        font-size: calc($subtitle-Font-Size + 0.5rem);
+    }
+}

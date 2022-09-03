@@ -10,7 +10,7 @@
 
 button {
     @include smooth-Ice-Shadow();
-    margin: 1rem auto 2rem;
+    margin: 0.5rem auto;
     a.btn_continue {
         position: relative;
         font-size: $subtitle-Font-Size;

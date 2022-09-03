@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 ::-webkit-scrollbar {
   width: 0px;
   scroll-behavior: smooth;
@@ -53,50 +56,123 @@ a {
     transform: translateX(0);
   }
 }
-#main-container {
-  margin: 1rem auto 0;
+::-webkit-scrollbar {
+  width: 0px;
+  scroll-behavior: smooth;
 }
-#main-container .card-aboutApp {
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+}
+
+html, body {
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#headerTwo:target, #headerThree:target {
+  -webkit-animation: entrance 1s ease 0s 1 normal none;
+          animation: entrance 1s ease 0s 1 normal none;
+}
+
+@keyframes entrance {
+  0% {
+    opacity: 0;
+    transform: translateX(0.6rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@media only screen and (min-width: 769px) {
+  .card-aboutApp .card-Header {
+    width: auto;
+  }
+  .card-aboutApp .card-Header svg {
+    width: 23rem;
+    height: auto;
+  }
+  .card-aboutApp .card-Header .title-Card {
+    font-size: 1.9rem;
+  }
+  .card-aboutApp .card-Header .subtitle-Card {
+    font-size: 1.2rem;
+    width: 23rem;
+  }
+  .card-aboutApp .slide-Progress .slide-Progress_Position {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .card-aboutApp .slide-Progress #position-One, .card-aboutApp .slide-Progress #position-Two, .card-aboutApp .slide-Progress #position-Three {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+  button {
+    width: 25rem;
+    height: 4rem;
+  }
+  button a.btn_continue {
+    font-size: 1.4rem;
+    padding: 1rem 6rem;
+  }
+  a.btn_skip {
+    font-size: 1.4rem;
+  }
+}
+.card-aboutApp {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2.5rem;
+  box-sizing: border-box;
 }
-#main-container .card-aboutApp .card-Header {
+.card-aboutApp .card-Header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#main-container .card-aboutApp .card-Header .card-img {
-  margin-top: 2.5rem;
-  width: calc(100% - 2rem);
+.card-aboutApp .card-Header svg {
+  width: calc(16rem + 1vw);
   height: auto;
 }
-#main-container .card-aboutApp .card-Header .title-Card {
-  font-size: 1.3rem;
-  margin: 0.5rem auto;
+.card-aboutApp .card-Header .title-Card {
+  font-size: calc(1.3rem + 0.3vh);
+  margin-bottom: 0.5rem;
 }
-#main-container .card-aboutApp .card-Header .subtitle-Card {
+.card-aboutApp .card-Header .subtitle-Card {
+  margin-top: 0.5rem;
   width: 15rem;
-  font-size: 0.9rem;
+  font-size: calc(0.9rem + 0.3vh);
   font-weight: lighter;
   line-height: 1.25rem;
-  margin: 0.1rem auto;
   text-align: center;
 }
-#main-container .card-aboutApp .slide-Progress {
-  margin: 2rem auto;
+.card-aboutApp .slide-Progress {
   width: 5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-#main-container .card-aboutApp .slide-Progress .slide-Progress_Position {
+.card-aboutApp .slide-Progress .slide-Progress_Position {
   width: 0.6rem;
   height: 0.6rem;
   border: 0.099rem solid #000000;
   border-radius: 100%;
 }
-#main-container .card-aboutApp .slide-Progress #position-One, #main-container .card-aboutApp .slide-Progress #position-Two, #main-container .card-aboutApp .slide-Progress #position-Three {
+.card-aboutApp .slide-Progress #position-One, .card-aboutApp .slide-Progress #position-Two, .card-aboutApp .slide-Progress #position-Three {
   width: 0.8rem;
   height: 0.8rem;
   border: none;
@@ -109,7 +185,7 @@ button {
   border: none;
   background: #92E3A9;
   box-shadow: 0px 4px 10px #A1C3FC;
-  margin: 1rem auto 2rem;
+  margin: 0.5rem auto;
 }
 button a.btn_continue {
   position: relative;
