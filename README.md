@@ -1,22 +1,48 @@
-# Compass-Projects
-> Projetos desenvolvidos durante as sprints
+<img src="https://resumo.cloud/wp-content/uploads/2021/09/modelo-imagem-rc-18.png" min-width="300px" max-width="300px" width="300px" align="right" alt="Logo compass">
+
+# Compass-Projects 
+
+Projetos desenvolvidos durante as sprints
+
+
 
 ## ⭐ Projeto Sprit 1
 
-> Desenvolvimento das telas pedidas com simulação de efeito slide
+Primeiro projeto ao qual fomos encarregado.
 
-<img min-width="500px" max-width="500px" width="500px" src="./banners/Banner - Sprint 1.png" aling="center">
+Desenvolver telas do app que foram importadas no figma.
 
-## 👨‍💻 Skills aplicadas/ desenvolvidas:
-<code><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /></code>
-<code><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></code>
-<code><img src="https://img.shields.io/badge/Saas-CC6699?style=for-the-badge&logo=sass&logoColor=white" /></code>
-<code><img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white" /></code>
+
+## Screenshot
+
+![App Screenshot](https://github.com/JefersonT4v4res/Compass-Projects/blob/main/banners/Banner%20-%20Sprint%201.png?raw=true)
+
+## Documentação de cores
+
+| Cores             |Hexadecimal| Cor correspondente                                       |
+| ----------------- |-----------| -------------------------------------------------------- |
+| Cor background    |  #f8f8f8  | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) |
+| Cor Principal     |  #92E3A9  | ![#92E3A9](https://via.placeholder.com/10/92E3A9?text=+) |
+| Cor Sombra        |  #A1C3FC  | ![#A1C3FC](https://via.placeholder.com/10/A1C3FC?text=+) |
+
+
+## 👨‍💻 Skills aplicadas/desenvolvidas:
+
+<code>![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)</code>
+<code>![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)</code>
+<code>![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)</code>
+<code>![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)</code>
+
+---
 
 ## 💼 Ferramentas Utilizadas:
-<code><img src="https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC" /></code>
-<code><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></code>
-<code><img src="https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC" /></code>
-<code><img src="https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello&logoColor=007ACC" /></code>
 
-----
+<code>![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)</code>
+<code>![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)</code>
+<code>![Figma](https://img.shields.io/badge/figma-%23121011.svg?style=for-the-badge&logo=figma&logoColor=white)</code>
+<code>![Trello](https://img.shields.io/badge/Trello-%23121011.svg?style=for-the-badge&logo=Trello&logoColor=white)</code>
+
+## Autor
+
+- [@JefersonTavares](https://github.com/JefersonT4v4res)
+
