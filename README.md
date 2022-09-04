@@ -1,4 +1,4 @@
-<img src="https://resumo.cloud/wp-content/uploads/2021/09/modelo-imagem-rc-18.png" min-width="300px" max-width="300px" width="300px" align="right" alt="Logo compass">
+<img src="./banners/logo-Compass.png" min-width="300px" max-width="300px" width="300px" align="right" alt="Logo compass">
 
 # Compass-Projects 
 
