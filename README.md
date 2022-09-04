@@ -21,9 +21,9 @@ Projetos desenvolvidos durante as sprints
 
 | Cores             |Hexadecimal| Cor correspondente                                       |
 | ----------------- |-----------| -------------------------------------------------------- |
-| Cor background    |  #f8f8f8  | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) |
-| Cor Principal     |  #92E3A9  | ![#92E3A9](https://via.placeholder.com/10/92E3A9?text=+) |
-| Cor Sombra        |  #A1C3FC  | ![#A1C3FC](https://via.placeholder.com/10/A1C3FC?text=+) |
+| Cor background    |  #f8f8f8  | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text='') |
+| Cor Principal     |  #92E3A9  | ![#92E3A9](https://via.placeholder.com/10/92E3A9?text='') |
+| Cor Sombra        |  #A1C3FC  | ![#A1C3FC](https://via.placeholder.com/10/A1C3FC?text='') |
 
 
 ## 👨‍💻 Skills aplicadas/desenvolvidas:
