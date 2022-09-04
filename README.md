@@ -17,7 +17,11 @@ Desenvolver telas do app que foram importadas no figma.
 
 ![App Screenshot](https://github.com/JefersonT4v4res/Compass-Projects/blob/main/banners/Banner%20-%20Sprint%201.png?raw=true)
 
+<<<<<<< HEAD
 ## Documentação de cores
+=======
+<img min-width="500px" max-width="500px" width="500px" src="./banners/Banner - Sprint 1.png" align="middle">
+>>>>>>> 64c9a802a23d633ffae1ab2933580dfd216218ad
 
 | Cores             |Hexadecimal| Cor correspondente                                       |
 | ----------------- |-----------| -------------------------------------------------------- |
