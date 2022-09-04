@@ -8,9 +8,8 @@ Projetos desenvolvidos durante as sprints
 
 ## ⭐ Projeto Sprit 1
 
-Primeiro projeto ao qual fomos encarregado.
-
-Desenvolver telas do app que foram importadas no figma.
+> Primeiro projeto ao qual fomos encarregado.
+> Desenvolver telas do app que foram importadas no figma.
 
 
 ## Screenshot
