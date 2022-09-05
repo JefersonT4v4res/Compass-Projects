@@ -21,9 +21,9 @@ Projetos desenvolvidos durante as sprints
 
 | Cores             |Hexadecimal| Cor correspondente                                         |
 | ----------------- |-----------| ---------------------------------------------------------- |
-| Cor background    |  #f8f8f8  | ![](https://via.placeholder.com/30/f8f8f8?text=%20) |
-| Cor Principal     |  #92E3A9  | ![](https://via.placeholder.com/30/92E3A9?text=%20) |
-| Cor Sombra        |  #A1C3FC  | ![](https://via.placeholder.com/30/A1C3FC?text=%20) |
+| Cor background    |  #f8f8f8  | ![#f8f8f8](https://via.placeholder.com/30/f8f8f8?text=%20) |
+| Cor Principal     |  #92E3A9  | ![#92E3A9](https://via.placeholder.com/30/92E3A9?text=%20) |
+| Cor Sombra        |  #A1C3FC  | ![#A1C3FC](https://via.placeholder.com/30/A1C3FC?text=%20) |
 
 
 ## 👨‍💻 Skills aplicadas/desenvolvidas:
@@ -48,7 +48,7 @@ Projetos desenvolvidos durante as sprints
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/63317938?s=400&u=2cd19fb8df91e1e6eda670704c8dde98a4da5ddd&v=4" width="100px;" alt="Foto do Jeferson Tavares no GitHub"/><br>
+          <img src="https://avatars.githubusercontent.com/u/63317938?s=400&u=2cd19fb8df91e1e6eda670704c8dde98a4da5ddd&v=4" width="140px;" alt="Avatar do Jeferson Tavares no GitHub"/><br>
       </a>
     </td>
   </tr>
