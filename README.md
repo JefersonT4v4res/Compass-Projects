@@ -50,12 +50,11 @@ Projetos desenvolvidos durante as sprints
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/63317938?s=400&u=2cd19fb8df91e1e6eda670704c8dde98a4da5ddd&v=4" width="100px;" alt="Foto do Jeferson Tavares no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          - [@JefersonTavares](https://github.com/JefersonT4v4res)
         </sub>
       </a>
     </td>
   </tr>
 </table>
 
-- [@JefersonTavares](https://github.com/JefersonT4v4res)
 
