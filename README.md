@@ -23,7 +23,9 @@ Projetos desenvolvidos durante as sprints
 | ----------------- |-----------| ---------------------------------------------------------- |
 | Cor background    |  #f8f8f8  | ![#f8f8f8](https://via.placeholder.com/30x30/f8f8f8/ffeded.jpg?text=%20) |
 | Cor Principal     |  #92E3A9  | ![#92E3A9](https://via.placeholder.com/30x30/92E3A9/ffeded.jpg?text=%20) |
-| Cor Sombra        |  #A1C3FC  | ![#A1C3FC](https://via.placeholder.com/30x30/A1C3FC/ffeded.jpg?text=%20)
+| Cor Sombra        |  #A1C3FC  | ![#A1C3FC](https://via.placeholder.com/30x30/A1C3FC/ffeded.jpg?text=%20) |
+
+---
 
 ## 👨‍💻 Skills aplicadas/desenvolvidas:
 
@@ -32,7 +34,6 @@ Projetos desenvolvidos durante as sprints
 <code>![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)</code>
 <code>![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)</code>
 
----
 
 ## 💼 Ferramentas Utilizadas:
 
@@ -40,6 +41,8 @@ Projetos desenvolvidos durante as sprints
 <code>![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)</code>
 <code>![Figma](https://img.shields.io/badge/figma-%23121011.svg?style=for-the-badge&logo=figma&logoColor=white)</code>
 <code>![Trello](https://img.shields.io/badge/Trello-%23121011.svg?style=for-the-badge&logo=Trello&logoColor=white)</code>
+
+---
 
 ## Autor
 
