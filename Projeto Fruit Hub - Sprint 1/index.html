@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Fruit Hub - Sprint 1</title>
+</head>
+<body>
+    <main>
+        <section class="screens" id="screen-Splash">
+            <img src="./assets/img/Logo Fruit.png">
+        </section>
+
+        <section class="screens" id="welcome-Screen">
+            <div class="container-img">
+                <img id="fruits-basket_firstPicture" src="./assets/img/Fruits.png">
+            </div>
+            <h1 >Get The Freshest Fruit Salad Combo</h1>
+            <p>We deliver the best and freshest fruit salad in town. Order for a combo today!!!</p>
+            <a class="button" id="continue" href="#">Let's Continue</a>
+        </section>
+
+        <section class="screens" id="authentication-Screen">
+            <div class="container-img">
+                <img id="fruits-basket_secondPicture" src="./assets/img/Fruits.png">
+            </div>
+            <h1>Get The Freshest Fruit Salad Combo</h1>
+            <label for="firstName" aria-label="Your first name">
+                <input name="firstName" inputmode="latin-name" type="text" autocomplete="username" required>
+            </label>
+            <a class="button" id="continue" href="#">Star Ordering</a>
+        </section>
+
+        <section class="screens" id="home-Screen">
+            
+            <div id="container_Menu-Basket-Search-Filter">
+                <div id="container_Menu-Basket">
+                    <img src="./assets/icons/menu_icon.png">
+                    <p>Welcome, <span id="span_name-User"></span>.</p>
+                    <div id="basket_Button">
+                        <img id="basket-Icon" src="./assets/icons/basket_icon.png" alt="">
+                    </div>
+                </div>
+
+                <div id="container_Search-Filter">
+                    <img src="./assets/icons/lupe_icon.png">
+                    <label aria-label="Search for some food" for="search-Bar"><input name="search-Bar" type="text" placeholder="Search for fruit salad combos"></label>
+                </div>
+                <div id="container_filter-button">
+                    <img src="./assets/icons/filter_icon.png" alt="">
+                </div>
+                <div id="container-Filters">
+                    <a class="filters" href="#">All</a>
+                    <a class="filters" href="#">Salad Combo</a>
+                    <a class="filters" href="#">Berry Combo</a>
+                    <a class="filters" href="#">Mango Berry</a>
+                </div>
+            </div>
+
+            <section id="app-Catalog">
+                <h1>Recommended Combo</h1>
+                <hr>
+                <div id="itens-Recommended">
+                    <div class="cards">
+                        <img src="./assets/icons/like_icon.png" class="like">
+                        <img src="./assets/img/Honey-Lime-Peach-Fruit-Salad.png" alt="" class="food-picture">
+                        <h1 class="name-Food">Honey lime combo</h1>
+                        <p class="price-Food"><span class="currency">₦</span> 2.000</p>
+                        <img class="button-addBasket" src="./assets/icons/addBasket_icon.png" alt="">
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/icons/like_icon.png" class="like">
+                        <img src="./assets/img/Glowing-Berry-Fruit-Salad.png" alt="" class="food-picture">
+                        <h1 class="name-Food">Berry mango combo</h1>
+                        <p class="price-Food"><span class="currency">₦</span> 2.000</p>
+                        <img class="button-addBasket" src="./assets/icons/addBasket_icon.png" alt="">
+                    </div>    
+                </div>
+
+                <nav>
+                    <a href="" class="tabs-titles">Hottest</a>
+                    <a href="" class="tabs-titles">Popular</a>
+                    <a href="" class="tabs-titles">New Combo</a>
+                </nav>
+                <hr>
+                <div class="cards" id="cardOne">
+                    <img src="./assets/icons/like_icon.png" class="like">
+                    <img src="./assets/img/breakfast-quinoa-and-red-fruit-salad.png" alt="" class="food-picture">
+                    <h1 class="name-Food">Quinoa fruit salald</h1>
+                    <p class="price-Food"><span class="currency">₦</span> 10.000</p>
+                    <img class="button-addBasket" src="./assets/icons/addBasket_icon.png" alt="">
+                </div>
+                <div class="cards" id="cardTwo">
+                    <img src="./assets/icons/like_icon.png" class="like">
+                    <img src="./assets/img/Best-Ever-Tropical-Fruit-Salad.png" alt="" class="food-picture">
+                    <h1 class="name-Food">Tropical fruit salad</h1>
+                    <p class="price-Food"><span class="currency">₦</span> 10.000</p>
+                    <img class="button-addBasket" src="./assets/icons/addBasket_icon.png" alt="">
+                </div> 
+                <div class="cards" id="cardThree">
+                    <img src="./assets/icons/like_icon.png" class="like">
+                    <img src="./assets/img/BerryWorld-Kiwiberry-Fruit-Salad.png" alt="" class="food-picture">
+                    <h1 class="name-Food">Melon fruit salad</h1>
+                    <p class="price-Food"><span class="currency">₦</span> 10.000</p>
+                    <img class="button-addBasket" src="./assets/icons/addBasket_icon.png" alt="">
+                </div>    
+            </div>
+
+            </section>
+
+
+           
+        </section>
+
+    </main>
+    
+</body>
+</html>
