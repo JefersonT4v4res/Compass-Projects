@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color:#fdfdfd;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    background-color: #FFA451;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+input {
+    margin: auto;
+    border: none;
+}
+
+.screens {
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#screen-Splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFA451;
+    height: 28rem;
+}
+
+.container-img #fruits-basket_firstPicture {
+    width: 16rem;
+}
+
+#welcome-Screen h1 {
+    margin: 1.5rem 1rem 0 0.7rem;
+    font-size: 1.3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+#welcome-Screen p {
+    margin: 1rem 0.8rem 0 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.button {
+    width: 18rem;
+    height: 3rem;
+    margin: 7rem auto 0;
+}
+
+.button a {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+#authentication-Screen h1 {
+    margin: 1.5rem 0.8rem 0 1.1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#authentication-Screen label {
+    width: 18rem;
+    height: 3rem;
+    margin: 0.5rem auto 0;
+    background-color: #F7F5F5;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+#authentication-Screen label input {
+    width: 16.5rem;
+    height: 1.6rem;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+div#container_Menu-Basket-Search-Filter {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: calc(100vw - 1rem);
+    padding-top: 1.2rem;
+}
+
+div#container_Menu-Basket {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+div#container_Menu-Basket p {
+    margin: 0 2rem 0 1rem;
+}
+
+div#container_Menu-Basket p, div#container_Menu-Basket span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+div#basket_Button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background: #ffffff;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 6rem;
+}
+
+div#container_Search-Filter {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#container_Search-Filter img, div#container_filter-button img {
+    width: 18px;
+    height: 18px;
+}
+
+#container_Search {
+    width: 18rem;
+    height: 3rem;
+    background-color: #F7F5F5;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    display: flex;
+    gap: 1rem;
+    padding-left: 0.6rem;
+    align-items: center;
+}
+
+#container_Search label input {
+    width: 13.5rem;
+    height: 2rem;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}

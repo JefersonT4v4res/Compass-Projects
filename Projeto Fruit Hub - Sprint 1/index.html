@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Projeto Fruit Hub - Sprint 1</title>
 </head>
 <body>
@@ -16,20 +17,20 @@
             <div class="container-img">
                 <img id="fruits-basket_firstPicture" src="./assets/img/Fruits.png">
             </div>
-            <h1 >Get The Freshest Fruit Salad Combo</h1>
+            <h1>Get The Freshest Fruit Salad Combo</h1>
             <p>We deliver the best and freshest fruit salad in town. Order for a combo today!!!</p>
-            <a class="button" id="continue" href="#">Let's Continue</a>
+            <button class="button" ><a  id="continue" href="#authentication-Screen">Let's Continue</a></button>
         </section>
 
         <section class="screens" id="authentication-Screen">
             <div class="container-img">
-                <img id="fruits-basket_secondPicture" src="./assets/img/Fruits.png">
+                <img id="fruits-basket_secondPicture" src="./assets/img/fruits - two.png">
             </div>
-            <h1>Get The Freshest Fruit Salad Combo</h1>
+            <h1>What is your first name?</h1>
             <label for="firstName" aria-label="Your first name">
-                <input name="firstName" inputmode="latin-name" type="text" autocomplete="username" required>
+                <input name="firstName" inputmode="latin-name" type="text" autocomplete="username" placeholder="Chris" required>
             </label>
-            <a class="button" id="continue" href="#">Star Ordering</a>
+            <button class="button"><a id="continue" href="#home-Screen">Start Ordering</a></button>
         </section>
 
         <section class="screens" id="home-Screen">
@@ -44,12 +45,15 @@
                 </div>
 
                 <div id="container_Search-Filter">
-                    <img src="./assets/icons/lupe_icon.png">
-                    <label aria-label="Search for some food" for="search-Bar"><input name="search-Bar" type="text" placeholder="Search for fruit salad combos"></label>
+                    <div id="container_Search">
+                        <img src="./assets/icons/lupe_icon.png">
+                        <label aria-label="Search for some food" for="search-Bar"><input name="search-Bar" type="text" placeholder="Search for fruit salad combos"></label>
+                    </div>
+                        <div id="container_filter-button">
+                            <img src="./assets/icons/filter_icon.png" alt="">
+                        </div>
                 </div>
-                <div id="container_filter-button">
-                    <img src="./assets/icons/filter_icon.png" alt="">
-                </div>
+                
                 <div id="container-Filters">
                     <a class="filters" href="#">All</a>
                     <a class="filters" href="#">Salad Combo</a>

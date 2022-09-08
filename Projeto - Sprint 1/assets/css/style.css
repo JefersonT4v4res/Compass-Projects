@@ -95,41 +95,7 @@ a {
     transform: translateX(0);
   }
 }
-@media only screen and (min-width: 769px) {
-  .card-aboutApp .card-Header {
-    width: auto;
-  }
-  .card-aboutApp .card-Header svg {
-    width: 23rem;
-    height: auto;
-  }
-  .card-aboutApp .card-Header .title-Card {
-    font-size: 1.9rem;
-  }
-  .card-aboutApp .card-Header .subtitle-Card {
-    font-size: 1.2rem;
-    width: 23rem;
-  }
-  .card-aboutApp .slide-Progress .slide-Progress_Position {
-    width: 0.8rem;
-    height: 0.8rem;
-  }
-  .card-aboutApp .slide-Progress #position-One, .card-aboutApp .slide-Progress #position-Two, .card-aboutApp .slide-Progress #position-Three {
-    width: 1.1rem;
-    height: 1.1rem;
-  }
-  button {
-    width: 25rem;
-    height: 4rem;
-  }
-  button a.btn_continue {
-    font-size: 1.4rem;
-    padding: 1rem 6rem;
-  }
-  a.btn_skip {
-    font-size: 1.4rem;
-  }
-}
+
 .card-aboutApp {
   height: 100vh;
   display: flex;
@@ -197,4 +163,39 @@ a.btn_skip {
   font-size: 0.9rem;
   font-weight: 600;
   color: #92E3A9;
+}
+@media only screen and (min-width: 769px) {
+  .card-aboutApp .card-Header {
+    width: auto;
+  }
+  .card-aboutApp .card-Header svg {
+    width: 23rem;
+    height: auto;
+  }
+  .card-aboutApp .card-Header .title-Card {
+    font-size: 1.9rem;
+  }
+  .card-aboutApp .card-Header .subtitle-Card {
+    font-size: 1.2rem;
+    width: 23rem;
+  }
+  .card-aboutApp .slide-Progress .slide-Progress_Position {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .card-aboutApp .slide-Progress #position-One, .card-aboutApp .slide-Progress #position-Two, .card-aboutApp .slide-Progress #position-Three {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+  button {
+    width: 25rem;
+    height: 4rem;
+  }
+  button a.btn_continue {
+    font-size: 1.4rem;
+    padding: 1rem 6rem;
+  }
+  a.btn_skip {
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=style.css.map */
