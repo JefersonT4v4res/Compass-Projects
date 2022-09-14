@@ -1,0 +1,57 @@
+@import '../abstract/variables';
+
+.main-content {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 30px;
+    overflow: hidden;
+    z-index: -1;
+    #bg-line {
+        width: 24rem;
+        position: relative;
+        bottom: 2rem;
+        left: 6rem;
+        z-index: 49;
+        rotate: 12deg;
+    }
+    #bg-computer {
+        width: 20rem;
+        position: relative;
+        bottom: 5rem;
+        right: 1rem;
+        z-index: 49;
+    }
+    #container {
+        position: absolute;
+        overflow: hidden;  
+        z-index: 49;
+        height: calc(100vh - 100px);
+        top: 90px;
+        left: 30px;
+        right: 30px;
+        h1 {
+            width: 16rem;
+            font-family: $Monserrat;
+            font-size: 2.3rem;
+            font-weight: bold;
+        }
+        p{
+            width: 18rem;
+            color: $subtitle-color;
+            @include subtitle();
+        }
+        button {
+            margin-top: 2rem;
+            background-color: $Blue-purple;
+            width: auto;
+            height: 3rem;
+            border-radius: 0.5rem;
+            #btn_recent-Work{
+                color: $white;
+                font-family: $Roboto;
+                padding: 3rem 2rem;
+            }
+        }
+    }
+}

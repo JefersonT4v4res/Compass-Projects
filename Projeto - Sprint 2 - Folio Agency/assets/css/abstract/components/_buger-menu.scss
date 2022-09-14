@@ -1,0 +1,77 @@
+@import '../variables';
+@import '../mixins';
+
+.burger-Menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    background-color: $burger-menu;
+    top: 0px;
+    right: 0px;
+    #burger-Menu_header {
+        display: flex;
+        justify-content: start;
+        gap: 8rem;
+        align-items: center;
+        position: relative;
+        top: -3rem;
+        left: 0.5rem;
+        z-index: 101;
+        #btn-burger_light-mode {
+            border-top: none;
+            &::after, &::before {
+                content: "";
+                display: block;
+                width: 2rem;
+                height: 0.1rem;
+                background: $white;
+                transition: 0.3s;
+                position: relative;
+                top: -0.5rem;
+            }
+            &::after {
+                transform: rotate(-135deg);
+            }
+            &::before {
+                transform: rotate(135deg);
+            }
+        }
+    }
+    .line {
+        width: 15rem;
+        position: absolute;
+        top: 0px;
+        left: 5rem;
+        z-index: 1;
+    }
+    .burger-Menu_list-Itens {
+        height: 20rem;
+        margin-left: 1rem;
+        li{
+            height: 5rem;
+            .burger-Menu_Item {
+                font-size: 2rem;
+                font-weight: bold;
+                font-family: $Roboto;
+                color: $mobile-menu
+            }
+        }
+    }
+    .social-media_container {
+        @include container-socialMedia();
+        gap: 2rem;
+        margin-left: 1.4rem;
+        .social-media_btn {
+            @include btn_SocialMedia();
+            img {
+                width: 1rem;
+                height: 1rem;
+            }
+        }
+    }
+}

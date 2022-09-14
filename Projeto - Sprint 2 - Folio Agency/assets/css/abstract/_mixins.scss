@@ -1,0 +1,31 @@
+@import './variables';
+
+@mixin btn_SocialMedia {
+    box-sizing: border-box;
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid $social-midia_border;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin margin-bottom {
+    margin-bottom: 1.5rem;
+}
+
+@mixin subtitle {
+    font-family: $Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+@mixin container-socialMedia {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.4rem 0.4rem 1rem;
+    height: 40px;
+}

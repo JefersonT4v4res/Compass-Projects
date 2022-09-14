@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+::-webkit-scrollbar {
+  width: 0px;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+html, body {
+  color: black;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  box-sizing: border-box;
+  height: 70px;
+  width: 100vw;
+  padding: 1rem;
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 50;
+}
+.header .burger-Menu_Btn {
+  border-top: 2px solid #232340;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  background-color: transparent;
+}
+.header .burger-Menu_Btn::after {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 0.1rem;
+  background: #232340;
+  transition: 0.3s;
+  position: relative;
+  top: -0.5rem;
+}
+
+.burger-Menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  background-color: #232340;
+  top: 0px;
+  right: 0px;
+}
+.burger-Menu #burger-Menu_header {
+  display: flex;
+  justify-content: start;
+  gap: 8rem;
+  align-items: center;
+  position: relative;
+  top: -3rem;
+  left: 0.5rem;
+  z-index: 101;
+}
+.burger-Menu #burger-Menu_header #btn-burger_light-mode {
+  border-top: none;
+}
+.burger-Menu #burger-Menu_header #btn-burger_light-mode::after, .burger-Menu #burger-Menu_header #btn-burger_light-mode::before {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 0.1rem;
+  background: #ffffff;
+  transition: 0.3s;
+  position: relative;
+  top: -0.5rem;
+}
+.burger-Menu #burger-Menu_header #btn-burger_light-mode::after {
+  transform: rotate(-135deg);
+}
+.burger-Menu #burger-Menu_header #btn-burger_light-mode::before {
+  transform: rotate(135deg);
+}
+.burger-Menu .line {
+  width: 15rem;
+  position: absolute;
+  top: 0px;
+  left: 5rem;
+  z-index: 1;
+}
+.burger-Menu .burger-Menu_list-Itens {
+  height: 20rem;
+  margin-left: 1rem;
+}
+.burger-Menu .burger-Menu_list-Itens li {
+  height: 5rem;
+}
+.burger-Menu .burger-Menu_list-Itens li .burger-Menu_Item {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #595976;
+}
+.burger-Menu .social-media_container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1.4rem 0.4rem 1rem;
+  height: 40px;
+  gap: 2rem;
+  margin-left: 1.4rem;
+}
+.burger-Menu .social-media_container .social-media_btn {
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #D8D8D8;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.burger-Menu .social-media_container .social-media_btn img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.main-content {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 30px;
+  overflow: hidden;
+  z-index: -1;
+}
+.main-content #bg-line {
+  width: 24rem;
+  position: relative;
+  bottom: 2rem;
+  left: 6rem;
+  z-index: 49;
+  rotate: 12deg;
+}
+.main-content #bg-computer {
+  width: 20rem;
+  position: relative;
+  bottom: 5rem;
+  right: 1rem;
+  z-index: 49;
+}
+.main-content #container {
+  position: absolute;
+  overflow: hidden;
+  z-index: 49;
+  height: calc(100vh - 100px);
+  top: 90px;
+  left: 30px;
+  right: 30px;
+}
+.main-content #container h1 {
+  width: 16rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.main-content #container p {
+  width: 18rem;
+  color: #606060;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.main-content #container button {
+  margin-top: 2rem;
+  background-color: #5468E7;
+  width: auto;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+.main-content #container button #btn_recent-Work {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 3rem 2rem;
+}
+
+.footer {
+  margin: 1.5rem auto;
+  overflow: hidden;
+  height: 118vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 20px;
+  z-index: 65;
+  position: absolute;
+}
+.footer #card-contact {
+  box-sizing: border-box;
+  padding: 1rem 0.8rem;
+  width: calc(100vw - 40px);
+  height: 28rem;
+  background-color: #5468E7;
+  border-radius: 1.8rem;
+  background-image: linear-gradient(to bottom, #3A8FFF, #0837AE);
+  background-image: url("../img/line-gradient.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #ffffff;
+}
+.footer #card-contact #card-contact_generic-container {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.footer #card-contact #card-contact_generic-container img {
+  margin-left: 2.3rem;
+}
+.footer #card-contact #card-contact_generic-container span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+.footer #card-contact #card_about-team, .footer #card-contact #card_lets-talk {
+  font-family: "Montserrat", sans-serif;
+}
+.footer #card-contact #card_about-team {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  width: 12rem;
+  line-height: 1.4rem;
+}
+.footer #card-contact #card_lets-talk {
+  line-height: 2.3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.footer #card-contact button {
+  margin-top: 1rem;
+  background-color: #ffffff;
+  width: 13rem;
+  height: 3.3rem;
+  border-radius: 0.5rem;
+}
+.footer #card-contact button #btn_contact-Us {
+  color: #5468E7;
+  font-family: "Roboto", sans-serif;
+  padding: 3rem 2rem;
+  font-weight: 600;
+}
+.footer #footer_generic-container {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.2rem;
+}
+.footer #footer_generic-container #logo {
+  width: 10rem;
+  margin-bottom: 1.5rem;
+}
+.footer #footer_generic-container p {
+  width: 17rem;
+  color: #ADADAD;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.footer #footer_generic-container select {
+  margin-bottom: 1.5rem;
+  width: 17rem;
+  padding: 0.8rem 0.5rem;
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  border-radius: 0.4rem;
+}
+.footer .social-media_container {
+  gap: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1.4rem 0.4rem 1rem;
+  height: 40px;
+}
+.footer .social-media_container .social-media_btn {
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #D8D8D8;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .social-media_container .social-media_btn img {
+  width: 1rem;
+  height: 1rem;
+}
+.footer .social-media_container #facebook {
+  background: #5468E7;
+}
+.footer #footer-line {
+  width: 20rem;
+  position: relative;
+  z-index: -1;
+  bottom: 20.4rem;
+  right: 4.7rem;
+  rotate: 1deg;
+}/*# sourceMappingURL=style.css.map */
