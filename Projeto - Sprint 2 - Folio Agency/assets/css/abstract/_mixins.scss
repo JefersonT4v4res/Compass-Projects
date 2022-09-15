@@ -12,6 +12,15 @@
     justify-content: center;
 }
 
+@mixin btn_contact {
+    margin-top: 2rem;
+    background-color: $Blue-purple;
+    width: auto;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+
 @mixin margin-bottom {
     margin-bottom: 1.5rem;
 }
@@ -28,4 +37,15 @@
     justify-content: flex-start;
     margin: 1.4rem 0.4rem 1rem;
     height: 40px;
+}
+
+@mixin align-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin roboto-White {
+    color: $white;
+    font-family: $Roboto;
 }

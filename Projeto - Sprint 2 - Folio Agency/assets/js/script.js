@@ -1,6 +1,13 @@
-let btn_burger = document.getElementById("btn-burger");
+let btn_burgerOpen = document.getElementById("btn-burger");
+let btn_burgerClose = document.getElementById("btn-burger_light-mode");
 
-btn_burger.addEventListener("click", function(event) {
+btn_burgerOpen.addEventListener("click", function(event) {
     document.getElementById("nav-burger").style.display = "flex";
-    console.log("cliquei");
+    document.body.style.overflow = "hidden";
 })
+
+btn_burgerClose.addEventListener("click", function(event) {
+    document.getElementById("nav-burger").style.display = "none";
+    document.body.style.overflow = "auto";
+})
+

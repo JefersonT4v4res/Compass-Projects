@@ -42,11 +42,7 @@
             @include subtitle();
         }
         button {
-            margin-top: 2rem;
-            background-color: $Blue-purple;
-            width: auto;
-            height: 3rem;
-            border-radius: 0.5rem;
+           @include btn_contact();
             #btn_recent-Work{
                 color: $white;
                 font-family: $Roboto;

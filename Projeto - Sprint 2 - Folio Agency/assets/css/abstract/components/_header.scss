@@ -11,8 +11,8 @@
     align-items: center;
     justify-content: space-between;
     z-index: 50;
-    .burger-Menu_Btn {
-        border-top: 2px solid $burger-menu;
+    .Dark-Purple_Btn {
+        border-top: 2px solid $Dark-Purple;
         width: 2rem;
         height: 2rem;
         margin-top: 1.5rem;
@@ -22,7 +22,7 @@
             display: block;
             width: 2rem;
             height: 0.1rem;
-            background: $burger-menu;
+            background: $Dark-Purple;
             transition: 0.3s;
             position: relative;
             top: -0.5rem;

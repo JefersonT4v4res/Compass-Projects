@@ -1,0 +1,104 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+.header {
+    background-color: $white;
+}
+
+#main-content_about-Us {
+    height: auto;
+    background-color: $Dark-Purple;
+    #section_about-Us {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        p {
+            font-family: $Roboto;
+            color: $white;
+            font-size: 1rem;
+            span {
+                color: $light-gray;
+            }
+        }
+        h1 {
+            width: 13rem;
+            font-family: $Roboto;
+            color: $white;
+        }
+        #generic-container {
+            display: flex;
+            justify-content: space-between;
+            height: 3rem;
+            #generic-container-buttons {
+                display: flex;
+                gap: 2rem;
+                button {
+                    background-color: transparent;
+                    @include align-itens();
+                }
+                #right-Arrow {
+                    border-radius: 100%;
+                    width: 3rem;
+                    background-color: $Blue-purple;
+                }
+            }
+            #years {
+                width: 7rem;
+                background-color: transparent;
+                border: none;
+                color: $white;
+                font-family: $Roboto;
+                font-size: .8rem;
+            }
+        }
+        #computer-AboutUs {
+            width: 30rem;
+            position: relative;
+            right: 4rem;
+            @include margin-bottom();
+        }
+        h2 {
+            @include margin-bottom();
+            color: $white;
+            font-family: $Roboto;
+            font-size: 1.2rem;
+        }
+        p {
+            font-family: $Roboto;
+            color: $light-gray;
+            font-size: .77rem;
+            font-weight: 500;
+            line-height: 1.3rem;
+        }
+        #btn_contact-Us {
+            @include btn_contact();
+            width: 8rem;
+            a {
+                color: $white;
+                font-family: $Roboto;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+        }
+        #branding {
+            border-radius: 100%;
+            width: calc(100vw - 42px);
+            height: 17rem;
+            margin-top: 3rem;
+            position: relative;
+            right: 0.6rem;
+            box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
+            @include align-itens();
+            flex-direction: column;
+            #branding-number {
+                @include roboto-White();
+                font-size: 8rem;
+                font-weight: bold;
+            }
+            #branding-phrase {
+                @include roboto-White();
+                font-size: 1rem;
+            }
+        }
+    }
+}

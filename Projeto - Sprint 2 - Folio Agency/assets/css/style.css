@@ -6,6 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 ::-webkit-scrollbar {
   width: 0px;
   scroll-behavior: smooth;
@@ -42,14 +44,14 @@ li {
   justify-content: space-between;
   z-index: 50;
 }
-.header .burger-Menu_Btn {
+.header .Dark-Purple_Btn {
   border-top: 2px solid #232340;
   width: 2rem;
   height: 2rem;
   margin-top: 1.5rem;
   background-color: transparent;
 }
-.header .burger-Menu_Btn::after {
+.header .Dark-Purple_Btn::after {
   content: "";
   display: block;
   width: 2rem;
@@ -60,7 +62,7 @@ li {
   top: -0.5rem;
 }
 
-.burger-Menu {
+.Dark-Purple {
   display: none;
   flex-direction: column;
   justify-content: space-around;
@@ -73,7 +75,7 @@ li {
   top: 0px;
   right: 0px;
 }
-.burger-Menu #burger-Menu_header {
+.Dark-Purple #Dark-Purple_header {
   display: flex;
   justify-content: start;
   gap: 8rem;
@@ -83,10 +85,10 @@ li {
   left: 0.5rem;
   z-index: 101;
 }
-.burger-Menu #burger-Menu_header #btn-burger_light-mode {
+.Dark-Purple #Dark-Purple_header #btn-burger_light-mode {
   border-top: none;
 }
-.burger-Menu #burger-Menu_header #btn-burger_light-mode::after, .burger-Menu #burger-Menu_header #btn-burger_light-mode::before {
+.Dark-Purple #Dark-Purple_header #btn-burger_light-mode::after, .Dark-Purple #Dark-Purple_header #btn-burger_light-mode::before {
   content: "";
   display: block;
   width: 2rem;
@@ -96,33 +98,33 @@ li {
   position: relative;
   top: -0.5rem;
 }
-.burger-Menu #burger-Menu_header #btn-burger_light-mode::after {
+.Dark-Purple #Dark-Purple_header #btn-burger_light-mode::after {
   transform: rotate(-135deg);
 }
-.burger-Menu #burger-Menu_header #btn-burger_light-mode::before {
+.Dark-Purple #Dark-Purple_header #btn-burger_light-mode::before {
   transform: rotate(135deg);
 }
-.burger-Menu .line {
+.Dark-Purple .line {
   width: 15rem;
   position: absolute;
   top: 0px;
   left: 5rem;
   z-index: 1;
 }
-.burger-Menu .burger-Menu_list-Itens {
+.Dark-Purple .Dark-Purple_list-Itens {
   height: 20rem;
   margin-left: 1rem;
 }
-.burger-Menu .burger-Menu_list-Itens li {
+.Dark-Purple .Dark-Purple_list-Itens li {
   height: 5rem;
 }
-.burger-Menu .burger-Menu_list-Itens li .burger-Menu_Item {
+.Dark-Purple .Dark-Purple_list-Itens li .Dark-Purple_Item {
   font-size: 2rem;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   color: #595976;
 }
-.burger-Menu .social-media_container {
+.Dark-Purple .social-media_container {
   display: flex;
   justify-content: flex-start;
   margin: 1.4rem 0.4rem 1rem;
@@ -130,7 +132,7 @@ li {
   gap: 2rem;
   margin-left: 1.4rem;
 }
-.burger-Menu .social-media_container .social-media_btn {
+.Dark-Purple .social-media_container .social-media_btn {
   box-sizing: border-box;
   background-color: transparent;
   width: 3rem;
@@ -141,7 +143,7 @@ li {
   align-items: center;
   justify-content: center;
 }
-.burger-Menu .social-media_container .social-media_btn img {
+.Dark-Purple .social-media_container .social-media_btn img {
   width: 1rem;
   height: 1rem;
 }
@@ -335,4 +337,116 @@ li {
   bottom: 20.4rem;
   right: 4.7rem;
   rotate: 1deg;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+#main-content_about-Us {
+  height: auto;
+  background-color: #232340;
+}
+#main-content_about-Us #section_about-Us {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+#main-content_about-Us #section_about-Us p {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+}
+#main-content_about-Us #section_about-Us p span {
+  color: #ADADAD;
+}
+#main-content_about-Us #section_about-Us h1 {
+  width: 13rem;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+#main-content_about-Us #section_about-Us #generic-container {
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+}
+#main-content_about-Us #section_about-Us #generic-container #generic-container-buttons {
+  display: flex;
+  gap: 2rem;
+}
+#main-content_about-Us #section_about-Us #generic-container #generic-container-buttons button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-content_about-Us #section_about-Us #generic-container #generic-container-buttons #right-Arrow {
+  border-radius: 100%;
+  width: 3rem;
+  background-color: #5468E7;
+}
+#main-content_about-Us #section_about-Us #generic-container #years {
+  width: 7rem;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+#main-content_about-Us #section_about-Us #computer-AboutUs {
+  width: 30rem;
+  position: relative;
+  right: 4rem;
+  margin-bottom: 1.5rem;
+}
+#main-content_about-Us #section_about-Us h2 {
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+#main-content_about-Us #section_about-Us p {
+  font-family: "Roboto", sans-serif;
+  color: #ADADAD;
+  font-size: 0.77rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+}
+#main-content_about-Us #section_about-Us #btn_contact-Us {
+  margin-top: 2rem;
+  background-color: #5468E7;
+  width: auto;
+  height: 3rem;
+  border-radius: 0.5rem;
+  width: 8rem;
+}
+#main-content_about-Us #section_about-Us #btn_contact-Us a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+#main-content_about-Us #section_about-Us #branding {
+  border-radius: 100%;
+  width: calc(100vw - 42px);
+  height: 17rem;
+  margin-top: 3rem;
+  position: relative;
+  right: 0.6rem;
+  box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#main-content_about-Us #section_about-Us #branding #branding-number {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 8rem;
+  font-weight: bold;
+}
+#main-content_about-Us #section_about-Us #branding #branding-phrase {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */
