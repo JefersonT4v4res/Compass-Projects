@@ -5,100 +5,98 @@
     background-color: $white;
 }
 
-#main-content_about-Us {
+.main-content {
     height: auto;
+}   
+#main-content_about-Us {
     background-color: $Dark-Purple;
     #section_about-Us {
         margin-top: 4rem;
         display: flex;
         flex-direction: column;
-        p {
-            font-family: $Roboto;
+        .tag-line {
+            @include tagLine();
             color: $white;
-            font-size: 1rem;
-            span {
+            .tag-line_spn {
                 color: $light-gray;
+                margin-right: 1rem;
             }
         }
-        h1 {
-            width: 13rem;
-            font-family: $Roboto;
+        .head-line {
+            @include headLine();
             color: $white;
         }
-        #generic-container {
+    #generic-container {
+        display: flex;
+        justify-content: space-between;
+        height: 3rem;
+        .generic-container-buttons {
             display: flex;
-            justify-content: space-between;
-            height: 3rem;
-            #generic-container-buttons {
-                display: flex;
-                gap: 2rem;
-                button {
-                    background-color: transparent;
-                    @include align-itens();
-                }
-                #right-Arrow {
-                    border-radius: 100%;
-                    width: 3rem;
-                    background-color: $Blue-purple;
-                }
+            gap: 2rem;
+            button {
+                @include align-itens();
             }
-            #years {
-                width: 7rem;
-                background-color: transparent;
-                border: none;
-                color: $white;
-                font-family: $Roboto;
-                font-size: .8rem;
+            #right-Arrow {
+                @include arrowRight();
             }
         }
-        #computer-AboutUs {
-            width: 30rem;
-            position: relative;
-            right: 4rem;
-            @include margin-bottom();
-        }
-        h2 {
-            @include margin-bottom();
+        #years {
+            width: 7rem;
+            background-color: transparent;
+            border: none;
             color: $white;
             font-family: $Roboto;
-            font-size: 1.2rem;
-        }
-        p {
-            font-family: $Roboto;
-            color: $light-gray;
-            font-size: .77rem;
-            font-weight: 500;
-            line-height: 1.3rem;
-        }
-        #btn_contact-Us {
-            @include btn_contact();
-            width: 8rem;
-            a {
-                color: $white;
-                font-family: $Roboto;
-                font-size: 1rem;
-                font-weight: 500;
-            }
-        }
-        #branding {
-            border-radius: 100%;
-            width: calc(100vw - 42px);
-            height: 17rem;
-            margin-top: 3rem;
-            position: relative;
-            right: 0.6rem;
-            box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
-            @include align-itens();
-            flex-direction: column;
-            #branding-number {
-                @include roboto-White();
-                font-size: 8rem;
-                font-weight: bold;
-            }
-            #branding-phrase {
-                @include roboto-White();
-                font-size: 1rem;
-            }
+            font-size: .8rem;
         }
     }
+    #computer-AboutUs {
+        width: 30rem;
+        position: relative;
+        right: 4rem;
+        @include little_margin-bottom();
+    }
+    h2 {
+        @include little_margin-bottom();
+        color: $white;
+        font-family: $Roboto;
+        font-size: 1.2rem;
+    }
+    p {
+        font-family: $Roboto;
+        color: $light-gray;
+        font-size: .77rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+    }
+    #btn_contact-Us {
+        @include btn_contact();
+        width: 8rem;
+        a {
+            color: $white;
+            font-family: $Roboto;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+    #branding {
+        border-radius: 100%;
+        width: calc(100vw - 42px);
+        height: 17rem;
+        margin-top: 3rem;
+        position: relative;
+        right: 0.6rem;
+        box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
+        @include align-itens();
+        flex-direction: column;
+        #branding-number {
+            @include roboto-White();
+            font-size: 8rem;
+            font-weight: bold;
+        }
+        #branding-phrase {
+            @include roboto-White();
+            font-size: 1rem;
+        }
+    }
+  }
 }

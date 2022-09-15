@@ -1,0 +1,115 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+#main-content_service{
+    background-color: $ice;
+}
+.section {
+    @include large_margin-top();
+    height: 70rem;
+    .tag-line {
+        @include tagLine();
+        color: $Blue-purple;
+        .tag-line_spn {
+            margin-right: 0.8rem
+        }
+    }
+    .head-line {
+        @include headLine();
+    }
+    .generic-container-buttons {
+        display: flex;
+        justify-content: flex-start;
+        height: 3rem;
+        gap: 2rem;
+        @include little_margin-bottom();
+        @include little_margin-top();
+        button {
+            @include align-itens();
+        }
+        #right-Arrow {
+            @include arrowRight();
+        }
+    }
+    .generic-container_cards {
+        @include align-itens();
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        z-index: 4;
+        .card {
+            @include align-itens();
+            @include little_margin-top();
+            box-sizing: border-box;
+            gap: 1rem;
+            padding: 3rem;
+            background: #ffffff;
+            border-radius: 32px;
+            width: 100%;
+            height: 10rem;
+            box-shadow: 0 0.5rem #f6f5f6,  0 0.5rem #f6f5f6;
+            &:last-child {
+                @include medium_margin-bottom();
+            }
+            span {
+                font-family: $Roboto;
+                font-weight: 600;
+                color: $Blue-purple;
+            }
+        }
+    }
+    #line-purple {
+        width: 23rem;
+        position: relative;
+        z-index: 1;
+        bottom: 20.9rem;
+        left: 0.1rem;
+        rotate: -9deg;
+    }
+}
+#section_Achievement {
+    .tag-line {
+        @include tagLine();
+        color: $Dark-Purple;
+        .tag-line_spn {
+            color: $light-gray;
+            margin-right: 1rem;
+        }
+    }
+    .head-line {
+        @include headLine();
+        font-size: 1.5rem;
+    }
+    #generic-container_total-Projects {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        #projects-number {
+            font-family: $Roboto;
+            color: $Blue-purple;
+            font-weight: bold;
+            font-size: 8rem;
+        }
+        #projects-phrase {
+            @include tagLine();
+            @include medium_margin-bottom();
+        }
+    }
+    img {
+        margin: 0 auto;
+        width: 16rem;
+    }
+    #slider-pass_container {
+        @include align-itens();
+        gap: 2rem;
+        .slider-pass {
+            border-radius: 100%;
+            width: .7rem;
+            height: .7rem;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.30171);
+        }
+        #two {
+            background-color: $Blue-purple;
+        }
+    }
+}

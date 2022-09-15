@@ -20,9 +20,23 @@
     border-radius: 0.5rem;
 }
 
-
-@mixin margin-bottom {
+@mixin little_margin-bottom {
     margin-bottom: 1.5rem;
+}
+@mixin medium_margin-bottom {
+    margin-bottom: 2.5rem;
+}
+@mixin large_margin-bottom {
+    margin-bottom: 3.5rem;
+}
+@mixin little_margin-top {
+    margin-top: 1.5rem;
+}
+@mixin medium_margin-top {
+    margin-top: 2.5rem;
+}
+@mixin large_margin-top {
+    margin-top: 3.5rem;
 }
 
 @mixin subtitle {
@@ -47,5 +61,22 @@
 
 @mixin roboto-White {
     color: $white;
+    font-family: $Roboto;
+}
+
+@mixin arrowRight {
+    border-radius: 100%;
+    width: 3rem;
+    background-color: $Blue-purple;
+}
+
+@mixin tagLine {
+    font-family: $Roboto;
+    font-size: 0.89rem;
+    font-weight: 600;
+}
+
+@mixin headLine {
+    width: 13rem;
     font-family: $Roboto;
 }

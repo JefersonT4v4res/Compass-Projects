@@ -77,17 +77,17 @@
         margin-top: 2.2rem;
         #logo {
             width: 10rem;
-            @include margin-bottom();
+            @include little_margin-bottom();
         }
         p {
             width: 17rem;
             color: $light-gray;
             text-align: center;
-            @include margin-bottom();
+            @include little_margin-bottom();
             @include subtitle();
         }
         select {
-            @include margin-bottom();
+            @include little_margin-bottom();
             width: 17rem;           
             padding: 0.8rem 0.5rem;
             font-family: $Roboto;

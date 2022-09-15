@@ -8,6 +8,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 ::-webkit-scrollbar {
   width: 0px;
   scroll-behavior: smooth;
@@ -30,6 +34,10 @@ html, body {
 
 li {
   list-style: none;
+}
+
+button {
+  background-color: transparent;
 }
 
 .header {
@@ -343,8 +351,11 @@ li {
   background-color: #ffffff;
 }
 
-#main-content_about-Us {
+.main-content {
   height: auto;
+}
+
+#main-content_about-Us {
   background-color: #232340;
 }
 #main-content_about-Us #section_about-Us {
@@ -352,15 +363,17 @@ li {
   display: flex;
   flex-direction: column;
 }
-#main-content_about-Us #section_about-Us p {
+#main-content_about-Us #section_about-Us .tag-line {
   font-family: "Roboto", sans-serif;
+  font-size: 0.89rem;
+  font-weight: 600;
   color: #ffffff;
-  font-size: 1rem;
 }
-#main-content_about-Us #section_about-Us p span {
+#main-content_about-Us #section_about-Us .tag-line .tag-line_spn {
   color: #ADADAD;
+  margin-right: 1rem;
 }
-#main-content_about-Us #section_about-Us h1 {
+#main-content_about-Us #section_about-Us .head-line {
   width: 13rem;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
@@ -370,17 +383,16 @@ li {
   justify-content: space-between;
   height: 3rem;
 }
-#main-content_about-Us #section_about-Us #generic-container #generic-container-buttons {
+#main-content_about-Us #section_about-Us #generic-container .generic-container-buttons {
   display: flex;
   gap: 2rem;
 }
-#main-content_about-Us #section_about-Us #generic-container #generic-container-buttons button {
-  background-color: transparent;
+#main-content_about-Us #section_about-Us #generic-container .generic-container-buttons button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#main-content_about-Us #section_about-Us #generic-container #generic-container-buttons #right-Arrow {
+#main-content_about-Us #section_about-Us #generic-container .generic-container-buttons #right-Arrow {
   border-radius: 100%;
   width: 3rem;
   background-color: #5468E7;
@@ -449,4 +461,216 @@ li {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+}
+
+#main-content_service {
+  background-color: #F8F8FC;
+}
+
+.section {
+  margin-top: 3.5rem;
+  height: 70rem;
+}
+.section .tag-line {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.89rem;
+  font-weight: 600;
+  color: #5468E7;
+}
+.section .tag-line .tag-line_spn {
+  margin-right: 0.8rem;
+}
+.section .head-line {
+  width: 13rem;
+  font-family: "Roboto", sans-serif;
+}
+.section .generic-container-buttons {
+  display: flex;
+  justify-content: flex-start;
+  height: 3rem;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.section .generic-container-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section .generic-container-buttons #right-Arrow {
+  border-radius: 100%;
+  width: 3rem;
+  background-color: #5468E7;
+}
+.section .generic-container_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  position: relative;
+  z-index: 4;
+}
+.section .generic-container_cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  gap: 1rem;
+  padding: 3rem;
+  background: #ffffff;
+  border-radius: 32px;
+  width: 100%;
+  height: 10rem;
+  box-shadow: 0 0.5rem #f6f5f6, 0 0.5rem #f6f5f6;
+}
+.section .generic-container_cards .card:last-child {
+  margin-bottom: 2.5rem;
+}
+.section .generic-container_cards .card span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #5468E7;
+}
+.section #line-purple {
+  width: 23rem;
+  position: relative;
+  z-index: 1;
+  bottom: 20.9rem;
+  left: 0.1rem;
+  rotate: -9deg;
+}
+
+#section_Achievement .tag-line {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.89rem;
+  font-weight: 600;
+  color: #232340;
+}
+#section_Achievement .tag-line .tag-line_spn {
+  color: #ADADAD;
+  margin-right: 1rem;
+}
+#section_Achievement .head-line {
+  width: 13rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+#section_Achievement #generic-container_total-Projects {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#section_Achievement #generic-container_total-Projects #projects-number {
+  font-family: "Roboto", sans-serif;
+  color: #5468E7;
+  font-weight: bold;
+  font-size: 8rem;
+}
+#section_Achievement #generic-container_total-Projects #projects-phrase {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.89rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+#section_Achievement img {
+  margin: 0 auto;
+  width: 16rem;
+}
+#section_Achievement #slider-pass_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+#section_Achievement #slider-pass_container .slider-pass {
+  border-radius: 100%;
+  width: 0.7rem;
+  height: 0.7rem;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.30171);
+}
+#section_Achievement #slider-pass_container #two {
+  background-color: #5468E7;
+}
+
+#main-content_work {
+  height: 225rem;
+}
+
+.section .about-Agency {
+  color: #ADADAD;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+}
+.section .generic-container_cards {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.section .generic-container_cards .card-projects {
+  width: 18rem;
+}
+.section .generic-container_cards .card-projects .container_img-button {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 22px;
+  background-color: #FFBA79;
+  padding: 1rem;
+  height: 22rem;
+}
+.section .generic-container_cards .card-projects .container_img-button img {
+  width: 100%;
+}
+.section .generic-container_cards .card-projects .container_img-button button {
+  width: 10rem;
+  height: 2.4rem;
+  border-radius: 22px;
+  background-color: #908CFF;
+}
+.section .generic-container_cards .card-projects .container_img-button button a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  padding: 1.4rem;
+}
+.section .generic-container_cards .card-projects #bento {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.section .generic-container_cards .card-projects #about-Agency_card-text {
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+}
+.section .generic-container_cards .card-projects #right-Arrow_work {
+  background-color: #ffffff;
+  border: 0.1rem solid #000000;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+.section .generic-container_cards .card-projects #bg-pink_cursor-pencil-screen {
+  background-color: #E8BEFF;
+}
+.section .generic-container_cards .card-projects #bg-goldenYellow_cursor-pencil-screen {
+  background-color: #FFCE79;
+}
+.section .generic-container_cards .card-projects #bg-smoothBlue_sound-Display {
+  background-color: #D1ECFD;
+}
+.section #btn-contactUs-work {
+  background-color: #5468E7;
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 8px;
+}
+.section #btn-contactUs-work a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem 5rem;
 }/*# sourceMappingURL=style.css.map */
