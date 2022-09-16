@@ -603,7 +603,7 @@ button {
 }
 
 #main-content_work {
-  height: 225rem;
+  height: 228rem;
 }
 
 .section .about-Agency {
@@ -733,6 +733,16 @@ button {
   bottom: 41.6rem;
   left: 1rem;
   width: 17rem;
+}
+
+#right-Arrow_cta {
+  position: relative;
+  top: 0rem;
+  left: 14rem;
+  z-index: 3;
+}
+#right-Arrow_cta img {
+  width: 2rem;
 }
 
 #main-content_job {
