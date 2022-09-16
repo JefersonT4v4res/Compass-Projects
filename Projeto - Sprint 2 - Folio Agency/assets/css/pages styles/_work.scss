@@ -1,6 +1,10 @@
 @import '../abstract/variables';
 @import '../abstract/mixins';
 
+
+#work {
+    color: $white;
+}
 #main-content_work {
     height: 225rem;
 }
@@ -66,15 +70,16 @@
                 background-color: $smooth-blue;
             }
         }
-    }  
-    #btn-contactUs-work {
-        background-color: $Blue-purple;
-        width: 15rem;
-        height: 2.5rem;
-        border-radius: 8px;
-        a {
-            @include roboto-White;
-            padding: 1rem 5rem;
+        #btn-contactUs-work {
+            @include medium_margin-top();
+            background-color: $Blue-purple;
+            width: 15rem;
+            height: 2.5rem;
+            border-radius: 8px;
+            a {
+                @include roboto-White;
+                padding: 1rem 5rem;
+            }
         }
-    }
+    }  
 }

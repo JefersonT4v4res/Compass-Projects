@@ -19,6 +19,12 @@
     height: 3rem;
     border-radius: 0.5rem;
 }
+@mixin btn_generic {
+    width: 9rem;
+    height: 2.6rem;
+    border-radius: 0.5rem;
+    background: white;
+}
 
 @mixin little_margin-bottom {
     margin-bottom: 1.5rem;
@@ -61,6 +67,10 @@
 
 @mixin roboto-White {
     color: $white;
+    font-family: $Roboto;
+}
+@mixin roboto-purple {
+    color: $Blue-purple;
     font-family: $Roboto;
 }
 

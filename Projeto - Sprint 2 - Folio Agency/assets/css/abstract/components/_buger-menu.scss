@@ -15,15 +15,15 @@
     right: 0px;
     #Dark-Purple_header {
         display: flex;
-        justify-content: start;
-        gap: 8rem;
+        justify-content: space-between;
         align-items: center;
         position: relative;
-        top: -3rem;
+        top: -1rem;
         left: 0.5rem;
         z-index: 101;
         #btn-burger_light-mode {
             border-top: none;
+            flex-grow: .2;
             &::after, &::before {
                 content: "";
                 display: block;

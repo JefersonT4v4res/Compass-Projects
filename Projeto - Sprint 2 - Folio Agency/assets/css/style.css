@@ -12,6 +12,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 ::-webkit-scrollbar {
   width: 0px;
   scroll-behavior: smooth;
@@ -85,16 +87,16 @@ button {
 }
 .Dark-Purple #Dark-Purple_header {
   display: flex;
-  justify-content: start;
-  gap: 8rem;
+  justify-content: space-between;
   align-items: center;
   position: relative;
-  top: -3rem;
+  top: -1rem;
   left: 0.5rem;
   z-index: 101;
 }
 .Dark-Purple #Dark-Purple_header #btn-burger_light-mode {
   border-top: none;
+  flex-grow: 0.2;
 }
 .Dark-Purple #Dark-Purple_header #btn-burger_light-mode::after, .Dark-Purple #Dark-Purple_header #btn-burger_light-mode::before {
   content: "";
@@ -218,7 +220,7 @@ button {
 .footer {
   margin: 1.5rem auto;
   overflow: hidden;
-  height: 118vh;
+  height: 130vh;
   width: 100vw;
   box-sizing: border-box;
   padding: 20px;
@@ -440,7 +442,7 @@ button {
 }
 #main-content_about-Us #section_about-Us #branding {
   border-radius: 100%;
-  width: calc(100vw - 42px);
+  width: 17rem;
   height: 17rem;
   margin-top: 3rem;
   position: relative;
@@ -521,7 +523,7 @@ button {
   padding: 3rem;
   background: #ffffff;
   border-radius: 32px;
-  width: 100%;
+  width: 18rem;
   height: 10rem;
   box-shadow: 0 0.5rem #f6f5f6, 0 0.5rem #f6f5f6;
 }
@@ -594,6 +596,10 @@ button {
   background-color: #5468E7;
 }
 
+#work {
+  color: #ffffff;
+}
+
 #main-content_work {
   height: 225rem;
 }
@@ -663,14 +669,66 @@ button {
 .section .generic-container_cards .card-projects #bg-smoothBlue_sound-Display {
   background-color: #D1ECFD;
 }
-.section #btn-contactUs-work {
+.section .generic-container_cards #btn-contactUs-work {
+  margin-top: 2.5rem;
   background-color: #5468E7;
   width: 15rem;
   height: 2.5rem;
   border-radius: 8px;
 }
-.section #btn-contactUs-work a {
+.section .generic-container_cards #btn-contactUs-work a {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   padding: 1rem 5rem;
+}
+
+#main-content_cta {
+  height: 68rem;
+}
+
+#section_cta {
+  background-color: #5468E7;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 56rem;
+}
+#section_cta #content-container {
+  z-index: 10;
+}
+#section_cta #content-container #cta_tag-line, #section_cta #content-container #cta_tag-line_spn {
+  margin-top: 1.5rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+#section_cta #content-container #cta_head-line {
+  width: 12rem;
+  color: #ffffff;
+}
+#section_cta #content-container #cta_btn-apply {
+  width: 9rem;
+  height: 2.6rem;
+  border-radius: 0.5rem;
+  background: white;
+}
+#section_cta #content-container #cta_btn-apply a {
+  color: #5468E7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+#section_cta #phone-img {
+  z-index: 5;
+  position: relative;
+  right: 7rem;
+  width: 30rem;
+}
+#section_cta #bg-pink {
+  z-index: 2;
+  position: relative;
+  bottom: 41.6rem;
+  left: 1rem;
+  width: 17rem;
 }/*# sourceMappingURL=style.css.map */
