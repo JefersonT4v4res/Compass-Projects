@@ -10,7 +10,7 @@
     <script src="../assets/js/svg-inject.min.js"></script>
 </head>
 <body>
-    <header class="header" id="header-aboutUs">
+    <header class="header">
         <a class="logo"><img class="logo_Img" id="img_logo-light" src="../assets/icons/logo/logo.svg" onload="SVGInject(this)"></a>
         <button class="Dark-Purple_Btn" id="btn-burger">
             <span id="Dark-Purple_Btn-Icon"></span>
@@ -24,12 +24,12 @@
                 </button>
             </div>
             <img class="line" src="../assets/img/line.svg">
-                <ul class="Dark-Purple_list-Itens" id="menu-itens">
-                    <li><a class="Dark-Purple_Item" id="work" href="./work.html">Work</a></li>
-                    <li><a class="Dark-Purple_Item" id="about" href="./aboutUs.html">About</a></li>
-                    <li><a class="Dark-Purple_Item" id="services" href="./service.html">Services</a></li>
-                    <li><a class="Dark-Purple_Item" id="jobs" href="./job.html">Jobs</a></li>
-                </ul>
+            <ul class="Dark-Purple_list-Itens" id="menu-itens">
+                <li><a class="Dark-Purple_Item" id="work" href="./work.html">Work</a></li>
+                <li><a class="Dark-Purple_Item" id="about" href="./aboutUs.html">About</a></li>
+                <li><a class="Dark-Purple_Item" id="services" href="./service.html">Services</a></li>
+                <li><a class="Dark-Purple_Item" id="jobs" href="./job.html">Jobs</a></li>
+            </ul>
                <div class="social-media_container">
                    <button class="social-media_btn"><img src="../assets/icons/facebook-icon.svg" alt=""></button>
                    <button class="social-media_btn"><img src="../assets/icons/youtube-icon.svg" alt=""></button>
@@ -38,29 +38,45 @@
             </nav>
     </header>
     
-    <main class="main-content" id="main-content_about-Us">
-        <section id="section_about-Us">
-            <p class="tag-line"><span class="tag-line_spn">01.</span> Who We Are</p>
-            <h1 class="head-line">We Make Designs that Lead and Inspire.</h1>
-            <div class="container" id="generic-container">
-                <div class="generic-container-buttons">
-                    <button id="left-Arrow"><img src="../assets/icons/arrow-down.svg" alt=""></button>
-                    <button id="right-Arrow"><img src="../assets/icons/arrow-down-1.svg" alt=""></button>
+    <main class="main-content" id="main-content_job">
+        <img id="job_bg-line" src="../assets/img/line-smoothPurple.svg" >
+        <section class="section" id="section_job">
+            <p class="tag-line"><span class="tag-line_spn">05.</span> We are hiring</p>
+            <h1 class="head-line">Jobs</h1>
+            <p class="about-Agency" id="job_about-Agency">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+            
+            <div class="generic-container_cards" id="cards-container">
+                <div class="card-job">
+                    <h1>Graphic Designer</h1>
+                    <div id="notification"><span>2</span></div>
+                    <span class="experience">2 years experience</span>
+                    <img id="job_arrow" src="../assets/icons/arrow-black.svg" alt="">
                 </div>
-                <select name="years" id="years">
-                    <option value="2020" selected>2020</option>
-                    <option value="2021">2021</option>
-                    <option value="2022">2022</option>
-                </select>
-            </div>
-            <img id="computer-AboutUs" src="../assets/img/computer-AboutUs.svg" alt="">
-            <h2>A design team building a curated marketplace for UI designers.</h2>
-            <p>4,404 curated design resources to energize your creative workflow. We're a growing family of 334,531 designers and makers from around the world</p>
-            <button id="btn_contact-Us"><a  href="/">Contact Us</a></button>
 
-            <div id="branding">
-            <span id="branding-number">28</span>
-            <span id="branding-phrase">biggest branding</span>
+                <div class="card-job" id="card-job_active">
+                        <div id="card-job_content">
+                            <h1>Visual Designer</h1>
+                            <span class="experience">2 years experience</span>
+                            <img id="job_arrow" src="../assets/icons/arrow-down-1.svg" alt="">
+                        </div>
+                    <div id="container-blue">
+                       <img id="job_planner" src="../assets/img/[ 4 ] – Tablet.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card-job">
+                    <h1>Art Director</h1>
+                    <span class="experience">2 years experience</span>
+                    <img id="job_arrow" src="../assets/icons/arrow-black.svg" alt="">
+                </div>
+
+                <div class="card-job">
+                    <h1>Web Designer</h1>
+                    <div id="notification"><span>6</span></div>
+                    <span class="experience">2 years experience</span>
+                    <img id="job_arrow" src="../assets/icons/arrow-black.svg" alt="">
+                </div>
+                
             </div>
         </section>
     </main>

@@ -1,0 +1,91 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+#main-content_job {
+    background-color: $ice;
+}
+#job_bg-line {
+    width: 24rem;
+    position: relative;
+    bottom: 2rem;
+    left: 5rem;
+    z-index: 10;
+    rotate: 12deg;
+}
+#section_job {
+    position: relative;
+    z-index: 70;
+    bottom: 30rem;
+    height: 34rem;
+    z-index: 49;
+    #job_about-Agency {
+        line-height: 1.8rem;
+    }
+}
+
+.card-job {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    width: 18rem;
+    height: 11rem;
+    margin-top: 1.5rem;
+    background: #FFFFFF;
+    border-radius: 24px;
+    box-shadow: 0 0 21rem 0.5rem rgb(0 0 0 / 19%);
+    h1 {
+        font-family: $Roboto;
+        font-size: 1.5rem;
+        margin-bottom: -5px;
+    }
+    .experience {
+        font-family: $Roboto;
+    }
+    #notification {
+      background: linear-gradient(to bottom, #3A8FFF, #0837AE);
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      position: relative;
+      justify-content: center;
+      bottom: 1.4rem;
+      left: 12.4rem;
+      span {
+        @include roboto-White
+      }
+    }
+    #job_arrow {
+        @include little_margin-top();
+        width: 1.5rem;
+    }
+}
+
+#card-job_active {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 22rem;
+    padding: 1.5rem 0rem 1.2rem 2rem;
+    margin-left: 4rem;
+    background-color: $Dark-Purple;
+    #card-job_content {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #container-blue {
+        background: $Blue-purple;
+        flex-grow: 0.6;
+        border-radius: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        #job_planner {
+            width: 6rem;
+        }
+    }
+}
